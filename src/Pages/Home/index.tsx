@@ -20,10 +20,10 @@ export function Home() {
       <div className="Home-Body">
         
         <header className="H-red">
-          <Link to={'/'} className='div-Logo'>
+          <Link to='/deploying-vite-project-example/' className='div-Logo'>
             <img src={Logo} alt="" />
           </Link>
-          <Link to='/Home/Contato'>
+          <Link to='/deploying-vite-project-example/Home/Contato'>
             <BotaoLink text={'CONTATO'} posição={'horizontal-tb'} height={'48px'} width={'150px'} />
           </Link>
           
@@ -55,18 +55,18 @@ export function Home() {
           </nav>
           <figure></figure>
           <nav className="RightNav">
-            <Link to='/Home/Tecnologias'>
+            <Link to='/deploying-vite-project-example/Home/Tecnologias'>
               <BotaoLink text={'TECNOLOGIAS'} posição={'vertical-lr'} height={'150px'} width={'48px'} />
             </Link> 
           </nav>
         </main>
 
         <footer className="Footer">
-          <Link to={'/Home/Sobre'}>
+          <Link to='/deploying-vite-project-example/Home/Sobre'>
             <BotaoLink text={'SOBRE'} posição={'horizontal-tb'} height={'48px'} width={'150px'} />
           </Link>
           
-          <Link to={'Project'}>
+          <Link to='/deploying-vite-project-example/Home/Project'>
             <BotaoLink text={'PROJETOS'} posição={'horizontal-tb'} height={'48px'} width={'150px'} />
           </Link>
           
