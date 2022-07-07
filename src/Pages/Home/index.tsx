@@ -34,19 +34,19 @@ export function Home() {
           <nav className="LaftNav">
             <div className='Contato'>
 
-              <a href="#">
+              <a href="https://discord.com/users/IsaacMoret%C3%A3o#7320">
                 <DiscordLogo size={32} className='Discord'/>
               </a>
 
-              <a href="#">
+              <a href="https://www.linkedin.com/in/isaac-hana-moret%C3%A3o-1a32031a2/">
                 <LinkedinLogo size={32} className='Linkedin'/>
               </a>
 
-              <a href="#">
+              <a href="https://www.instagram.com/isaac_moretao/">
                 <InstagramLogo size={32} className='Instagram'/>
               </a>
 
-              <a href="#">
+              <a href="https://github.com/IsaacMoretao">
                 <GithubLogo size={32} className='Github'/>
               </a>
               

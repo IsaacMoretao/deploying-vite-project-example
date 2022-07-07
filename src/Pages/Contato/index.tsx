@@ -13,14 +13,14 @@ return(
 <div className='todoCont'>
 
   <header className='header-contato'>
-    <Link to="/Home">
+    <Link to="/deploying-vite-project-example/Home">
       <CaretCircleLeft className='Button' color="#ffffff" style={{marginLeft: '20px'}} />
     </Link>
 
 
     <strong>vamos trabalhar <span>juntos?</span></strong>
 
-    <Link to='/'>
+    <Link to='/deploying-vite-project-example/'>
       <img src={logo} alt="" style={{height: '50px', marginRight: '20px'}} />
     </Link>
 

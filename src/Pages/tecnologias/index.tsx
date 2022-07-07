@@ -22,15 +22,15 @@ export function Tecnologias() {
     <body>
       <div className='BodyTec'>
       <header className='headerProjects'>
-        <Link to='/Home' >
+        <Link to='/deploying-vite-project-example/Home' >
          <CaretCircleLeft className='Button' color="#ffffff" style={{marginLeft: '20px'}} />
         </Link>
         
-        <Link to='/Home/contato'>
+        <Link to='/deploying-vite-project-example/Home/contato'>
           <img src={Isaac} alt="Logo-Isaac" />
         </Link>
         
-        <Link to='/'>
+        <Link to='/deploying-vite-project-example/'>
           <img src={logo} alt="" />
         </Link>
         
